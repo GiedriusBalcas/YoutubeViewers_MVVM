@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Components\YoutubeViewerDetailsForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\YoutubeViewersDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\YoutubeViewersListing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\YoutubeViewersListingItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddYoutubeViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditYoutubeViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\YoutubeViewersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Components\YoutubeViewerDetailsForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\YoutubeViewersDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\YoutubeViewersListing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\YoutubeViewersListingItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddYoutubeViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditYoutubeViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\YoutubeViewersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
